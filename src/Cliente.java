@@ -2,8 +2,8 @@
 public class Cliente {
 
 	private String nome;
-
-	public String getNome() {
+	
+		public String getNome() {
 		return nome;
 	}
 
@@ -11,4 +11,13 @@ public class Cliente {
 		this.nome = nome;
 	}
 
+	private int documento;
+
+	public int getDocumento() {
+		return documento;
+	}
+
+	public void setDocumento(int documento) {
+		this.documento = documento;
+	}
 }

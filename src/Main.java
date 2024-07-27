@@ -2,11 +2,11 @@
 public class Main {
 
 	public static void main(String[] args) {
-		Cliente venilton = new Cliente();
-		venilton.setNome("Venilton");
+		Cliente wesley = new Cliente();
+		wesley.setNome("wesley");
 		
-		Conta cc = new ContaCorrente(venilton);
-		Conta poupanca = new ContaPoupanca(venilton);
+		Conta cc = new ContaCorrente(wesley);
+		Conta poupanca = new ContaPoupanca(wesley);
 
 		cc.depositar(100);
 		cc.transferir(100, poupanca);
